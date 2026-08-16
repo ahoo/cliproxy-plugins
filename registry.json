@@ -6,11 +6,15 @@
       "name": "DeepSeek Harness Session Affinity",
       "description": "Maps X-DeepSeek-Harness-Session-Id to X-Session-ID so deepseek-harness clients get stable session-affinity caching.",
       "author": "ahoo",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "repository": "https://github.com/ahoo/cliproxy-plugins",
       "homepage": "https://github.com/ahoo/cliproxy-plugins",
       "license": "MIT",
-      "tags": ["deepseek", "session-affinity", "harness"],
+      "tags": [
+        "deepseek",
+        "session-affinity",
+        "harness"
+      ],
       "install": {
         "type": "github-release"
       }
